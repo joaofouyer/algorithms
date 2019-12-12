@@ -22,5 +22,5 @@ Currently the content it's sort of messy but I'm trying to keep it organized by 
 
 - Problem Solving :bulb:: from simple to complex problems where the logical thinking behind them is more important than the programming language itself.
 
-- 10 days of Statistics :bar_chart:: a small set of simple statistics problems.
+- [10 days of Statistics](https://github.com/joaofouyer/algorithms/tree/master/statistics) :bar_chart:: a small set of simple statistics problems.
 
