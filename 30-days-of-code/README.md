@@ -8,12 +8,12 @@ A set of introductory algorithms to learn principles of programming languages. T
 
 Let's get somethings more spicy and read the input and then print after the Hello, World.
 
-'''
+````
 Hello, World.
 
 42 rules the universe!
 
-'''
+````
 
 ## Day 1: Very Simple Data Types :pager:
 
@@ -31,18 +31,19 @@ iii. Concatenate _s_ with the string you read as input and print the result on a
 >Note: If you are using a language that doesn't support using  for string concatenation (e.g.: C), you can just print one variable immediately following the other on the same line. The string provided in your editor must be printed first, immediately followed by the string you read as input.
 
 **Sample Input**
-'''
+
+```
 12
 4.0
 is the answer of the life, universe and everything else!
-'''
+```
 
 **Sample Output**
-'''
+```
 16
 8.0
 42 is the answer of the life, universe and everything else!
-'''
+```
 
 ## Day 2: Operators :notebook:
 [In this](https://www.hackerrank.com/challenges/30-operators/problem) challenge, you'll work with arithmetic operators.
@@ -50,16 +51,16 @@ is the answer of the life, universe and everything else!
 Given the meal price (base cost of a meal), tip percent (the percentage of the meal price being added as tip), and tax percent (the percentage of the meal price being added as tax) for a meal, find and print the meal's total cost.
 
 **Sample Input**
-'''
+```
 12.00
 20
 8
-'''
+```
 
 **Sample Output**
-'''
+```
 15
-'''
+```
 
 ## Day 3: Conditional Statements :door:
 [In this](https://www.hackerrank.com/challenges/30-conditional-statements/problem) challenge, we're getting started with conditional statements.
@@ -73,24 +74,24 @@ If _n_ is even and greater than 20, print ´Not Weird´
 
 
 **Sample Input**
-'''
+```
 3
-'''
+```
 
 **Sample Output**
-'''
+```
 Weird
-'''
+```
 
 **Sample Input**
-'''
+```
 42
-'''
+```
 
 **Sample Output**
-'''
+```
 Not Weird
-'''
+```
 
 ## Day 4: Class vs. Instance
 
