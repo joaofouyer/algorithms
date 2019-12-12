@@ -1,6 +1,8 @@
-# 30 days of code
+# 30 days of code :computer:
 
-## Day 0: Hello, World!
+A set of introductory algorithms to learn principles of programming languages. Tasks from Hacker Rank.
+
+## Day 0: Hello, World! :earth_americas:
 
 [Hello, World](https://www.hackerrank.com/challenges/30-hello-world/problem) is a very simple example in most programming languages, and is often used to illustrate the basic syntax of a programming language. It is often the first program written by people learning to code. So it's the best pick for the day zero.
 
@@ -13,7 +15,7 @@ Hello, World.
 
 '''
 
-## Day 1: Very Simple Data Types
+## Day 1: Very Simple Data Types :pager:
 
 [This task](https://www.hackerrank.com/challenges/30-data-types/problem) offers a brief introduction to simple data types.
 
@@ -42,9 +44,7 @@ is the answer of the life, universe and everything else!
 42 is the answer of the life, universe and everything else!
 '''
 
-
-
-## Day 2: Operators
+## Day 2: Operators :notebook:
 [In this](https://www.hackerrank.com/challenges/30-operators/problem) challenge, you'll work with arithmetic operators.
 
 Given the meal price (base cost of a meal), tip percent (the percentage of the meal price being added as tip), and tax percent (the percentage of the meal price being added as tax) for a meal, find and print the meal's total cost.
@@ -61,8 +61,7 @@ Given the meal price (base cost of a meal), tip percent (the percentage of the m
 15
 '''
 
-
-## Day 3: Conditional Statements
+## Day 3: Conditional Statements :door:
 [In this](https://www.hackerrank.com/challenges/30-conditional-statements/problem) challenge, we're getting started with conditional statements.
 
 Given an integer, _n_, perform the following conditional actions:
@@ -95,7 +94,7 @@ Not Weird
 
 ## Day 4: Class vs. Instance
 
-## Day 5: Loops
+## Day 5: Loops :loop:
 
 ## Day 6: Review
 
