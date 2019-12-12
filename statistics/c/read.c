@@ -1,20 +1,4 @@
 #include "read.h"
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-
-int * readline();
-char * * split_string(char * , char * , int *);
-
-int main() {
-    int ar_count = readline()[0];
-    int * ar = readline();
-    printf("%d \n", ar_count);
-    for (int i = 0; i < ar_count; i++){
-        printf("%d", ar[i]);
-    }
-    return 0;
-}
 
 int * readline() {
     size_t alloc_length = 1024;
@@ -61,4 +45,38 @@ char** split_string(char* str, char* delim, int *spaces){
         token = strtok(NULL, delim);
     }
     return splits;
+}
+
+char* readStdin(char* string, int size) {
+    if(fgets(string, size, stdin) != NULL) {
+        int lastChar = strlen(string) - 1;
+        if(string[lastChar] == '\n') string[lastChar] = '\0';
+        return string;
+    }
+    return NULL;
+}
+
+int readInt(char * string, int size) {
+    if(fgets(string, size, stdin) != NULL) {
+        int lastChar = strlen(string) - 1;
+        if(string[lastChar] == '\n') string[lastChar] = '\0';
+    }
+
+    return atoi(string);
+}
+
+int * readArray(char * string, int size) {
+    if(fgets(string, size, stdin) != NULL) {
+        int lastChar = strlen(string) - 1;
+        if(string[lastChar] == '\n') string[lastChar] = '\0';
+    }
+
+    char * * data = split_string(string, " ", &size);
+    int * arr = malloc(size * sizeof(int));
+
+    for (int ar_itr = 0; ar_itr < size; ar_itr++){
+        int ar_item = atoi(data[ar_itr]);
+        arr[ar_itr] = ar_item;
+    }
+    return arr;
 }
