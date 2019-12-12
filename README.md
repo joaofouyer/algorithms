@@ -18,9 +18,9 @@ The puzzles are from problems sets as seen in college, algorithms books, some co
 
 Currently the content it's sort of messy but I'm trying to keep it organized by the type of the problem.
 
-- 30 days of Code :calendar:: very simple algorithms to get in touch with any programming language. 
+- [30 days of Code :calendar:](https://github.com/joaofouyer/algorithms/tree/master/30-days-of-code): very simple algorithms to get in touch with any programming language. 
 
-- Problem Solving :bulb:: from simple to complex problems where the logical thinking behind them is more important than the programming language itself.
+- [Problem Solving :bulb:](https://github.com/joaofouyer/algorithms/tree/master/problem-solving): from simple to complex problems where the logical thinking behind them is more important than the programming language itself.
 
 - [10 days of Statistics](https://github.com/joaofouyer/algorithms/tree/master/statistics) :bar_chart:: a small set of simple statistics problems.
 
