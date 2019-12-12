@@ -2,15 +2,21 @@
 #include <math.h>
 #include "read.h"
 
-
+/*
+ * Calculates the squared difference between two numbers. In statistics it's used to calculate the distance between
+ * a set of numbers and the mean.
+ */
 double squaredDistance(int number, double mean){
     double delta = mean - number;
     return delta * delta;
 }
 
+/*
+ * Calculates the deviation of a given set and mean. The deviation is the square root of the sum of the squared
+ * distances between all the elements of the set and the mean
+ */
 double deviation(int ar_size, const int * arr, double mean){
-    double dev;
-    dev = 0;
+    double dev = 0;
 
     for(int i = 0; i < ar_size; i++){
         dev = dev + squaredDistance(arr[i], mean);
