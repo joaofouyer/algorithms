@@ -2,6 +2,7 @@
 
 A set of introductory algorithms to learn principles of programming languages. Tasks from Hacker Rank.
 
+[![](https://scontent.fcgh23-1.fna.fbcdn.net/v/t1.0-9/s960x960/78613655_2746586825422875_4082730688204242944_o.jpg?_nc_cat=111&_nc_ohc=NH1Fijomuq8AQm9iqWXu6fU-WoUJMvEE2HgWCv5C-xhkog2u90DUq96WQ&_nc_ht=scontent.fcgh23-1.fna&oh=4a8460850042546fa2793e7fc01c2b52&oe=5E70DA69)]()
 ## Day 0: Hello, World! :earth_americas:
 
 [Hello, World](https://www.hackerrank.com/challenges/30-hello-world/problem) is a very simple example in most programming languages, and is often used to illustrate the basic syntax of a programming language. It is often the first program written by people learning to code. So it's the best pick for the day zero.
