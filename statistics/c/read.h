@@ -10,5 +10,6 @@ char * * split_string(char * , char * , int *);
 char* readStdin(char* string, int size);
 int readInt(char * string, int size);
 int * readArray(char * string, int size);
+double * readDoubleArray(char *buffer, int i);
 
 #endif //ALGORITHMS_READ_H

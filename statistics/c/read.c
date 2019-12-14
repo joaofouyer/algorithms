@@ -80,3 +80,19 @@ int * readArray(char * string, int size) {
     }
     return arr;
 }
+
+double * readDoubleArray (char * string, int size){
+    if(fgets(string, size, stdin) != NULL) {
+        int lastChar = strlen(string) - 1;
+        if(string[lastChar] == '\n') string[lastChar] = '\0';
+    }
+
+    char * * data = split_string(string, " ", &size);
+    double * arr = malloc(size * sizeof(int));
+
+    for (int ar_itr = 0; ar_itr < size; ar_itr++){
+        double ar_item = (double) atof(data[ar_itr]);
+        arr[ar_itr] = ar_item;
+    }
+    return arr;
+}
